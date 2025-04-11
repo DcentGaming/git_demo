@@ -1,3 +1,6 @@
+Git Demo
+
+
 # Commands
 ## First time Setup Process
 1. Create a new repository on GitHub.
@@ -17,15 +20,25 @@
 
     - ``` git push origin <branch_name> ```
 
+Common commands
+```
+git add -A          # Add all files
+```
+
 ```
 git init
 git status
 git add <file>
 git commit -m "message"
 git log
+git remote add origin <url>
+git branch
+git checkout -b <branch_name>
+git checkout <branch_name>
 ```
 
-## Common commands
-```
-git add -A          # Add all files
-```
+Continuing git notes
+1. git add -A
+2. git commit -m "message"
+3. git merge <branch_name>
+4. git push origin <branch_name>
