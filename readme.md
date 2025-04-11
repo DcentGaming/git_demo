@@ -6,7 +6,7 @@ Git Demo
 1. Create a new repository on GitHub.
 
     - ``` git init ```
-2. Creat and add an ignore file
+2. Create and add an ignore file
 
     - ``` touch .gitignore ```
     - ``` git add .gitignore ```
@@ -19,6 +19,7 @@ Git Demo
 5. Push the changes to the remote repository
 
     - ``` git push origin <branch_name> ```
+    - ``` git push --tags```
 
 Common commands
 ```
@@ -37,8 +38,10 @@ git checkout -b <branch_name>
 git checkout <branch_name>
 ```
 
-Continuing git notes
-1. git add -A
-2. git commit -m "message"
-3. git merge <branch_name>
-4. git push origin <branch_name>
+## Continuing git notes
+
+- ```git add -A```
+- ```git commit -m "message"```
+- ```git tag -a <tag_name> -m "message"```
+- ```git merge <branch_name>```
+- ```git push origin <branch_name>```
