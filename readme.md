@@ -24,6 +24,9 @@ Git Demo
 Common commands
 ```
 git add -A          # Add all files
+git checkout <tag>
+git reset --hard <commit_id>
+git reflog
 ```
 
 ```
