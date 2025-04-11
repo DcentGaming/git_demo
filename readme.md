@@ -23,22 +23,23 @@ Git Demo
 
 Common commands
 ```
+git init
 git add -A          # Add all files
 git checkout <tag>
-git reset --hard <commit_id>
+git tag -a <tag_name> -m "message"
+git log
 git reflog
-```
-
-```
-git init
 git status
 git add <file>
 git commit -m "message"
-git log
 git remote add origin <url>
 git branch
 git checkout -b <branch_name>
 git checkout <branch_name>
+git reset --hard <commit_id>
+git merge <branch_name>
+git push origin <branch_name>
+git push origin <branch_name> --force
 ```
 
 ## Continuing git notes
